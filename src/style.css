@@ -15,16 +15,6 @@ body {
 }
 @media screen {    
 }
-.container {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.1);
-  padding: 30px 50px;
-  border-radius: 20px;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 8px 20px rgba(183, 135, 135, 0.3);
-  color-scheme: light dark;
-  transition: background 1s ease;
-}
 
 #dia {
   font-size: 1.3rem;
@@ -38,4 +28,15 @@ body {
   letter-spacing: 3px;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
   margin-top: 15px;
+}
+.container {
+  text-align: center;
+  background: url("src/img/imagem_mapa.png.jpg") no-repeat center center;
+  background-size: cover; /* ajusta a imagem */
+  padding: 30px 50px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 20px rgba(183, 135, 135, 0.3);
+  color-scheme: light dark;
+  transition: background 1s ease;
 }
